@@ -3,7 +3,6 @@ import Logo from "./Logo";
 function Header() {
   return (
     <section className="header">
-      {/* Nav */}
       <div className="top">
         <div>
           <a href="#">

@@ -3,7 +3,6 @@ import Logo from "./Logo";
 function Footer() {
   return (
     <section className="footer">
-      {/* liens */}
       <div className="content">
         <Logo />
 
@@ -32,7 +31,6 @@ function Footer() {
           </p>
         </div>
       </div>
-      {/* Copyright */}
       <div className="copy">&copy; 2025 - Kazaburger - Tous droits réservés</div>
     </section>
   );
