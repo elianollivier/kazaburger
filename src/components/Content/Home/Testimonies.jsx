@@ -19,11 +19,7 @@ function Testimonies() {
           const rating = item.rating ?? 0;
           const review = item.review || "Pas de commentaire";
 
-          const image =
-            item.product && item.product.pictures && item.product.pictures.length > 0
-              ? item.product.pictures[0]
-              : "src/assets/images/avatar1.jpg";
-
+          const image = "https://i.pravatar.cc/300?u=" + item._id;
           return (
             <Testimony
               key={index}
